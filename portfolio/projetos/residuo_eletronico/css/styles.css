@@ -55,6 +55,11 @@ nav a:hover:not(nav > a){
 }
 
 /* formtação conteúdo */
+article{
+    width: 90%;
+    margin: auto;
+}
+
 article section{
     background-color: #fff;
     border: 1px solid #ccc;
