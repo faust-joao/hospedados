@@ -29,10 +29,6 @@ header {
     margin-top: 40px;
 }
 
-img {
-    max-width: 100%;
-}
-
 /* navbar formatting */
 nav > a {
     display: none;
