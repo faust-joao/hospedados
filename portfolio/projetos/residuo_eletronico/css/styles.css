@@ -1,0 +1,118 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f6f8fb;
+}
+
+/* formatação do header */
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #757575;
+    color: #fff;
+}
+
+header h1{
+    margin: 0;
+}
+
+header img{
+    max-width: 100%;
+}
+
+/* formatação do navbar */
+nav > a{
+    display: none;
+}
+
+nav{
+    background-color: #616161; 
+    position: sticky;
+    top: 0;
+}
+
+nav div{
+    background-color: #616161;
+    display: flex;
+}
+
+nav a:any-link{
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav a:hover:not(nav > a){
+    background-color: #ccc;
+    color: #000;
+}
+
+#close{
+    display: none;
+}
+
+/* formtação conteúdo */
+article section{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+article section:not(:last-child){
+    margin-bottom: 30px;
+}
+
+article p{
+    text-align: justify;
+}
+
+/* formatação rodapé */
+footer{
+    color: #fff;
+}
+
+footer > div{
+    padding: 20px;
+}
+
+footer ul, footer p{
+    margin: 0;
+    padding: 0;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    cursor: pointer;
+}
+
+#footer1{
+    text-align: center;
+    background-color: #757575;
+}
+
+#footer1 ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#footer1 p{
+    margin-top: 20px;
+}
+
+#footer2{
+    background-color: #616161;
+}
+
+#footer2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+}
